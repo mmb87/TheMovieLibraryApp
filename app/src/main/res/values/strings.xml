@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TheMovieLibrary</string>
+
+    <!-- strings in selector_item.xml -->
+    <string name="release_date">Release date:</string>
+    <string name="vote_count">Vote count:</string>
+    <string name="score">Score:</string>
+
+    <!--string in detail_item.xml-->
+    <string name="original_title">Title:</string>
+    <string name="genre">Genre:</string>
+    <string name="status">Status:</string>
+    <string name="tagline">Tagline:</string>
+    <string name="description">Description:</string>
+    <string name="production_companies">Production companies:</string>
+    <string name="production_countries">Production countries:</string>
+    <string name="budget">Budget:</string>
+    <string name="runtime">Runtime:</string>
+    <string name="revenue">Revenue:</string>
+
+    <!--strings in NavigationDrawer-->
+    <string name="title_film_latest">Latest</string>
+    <string name="title_film_top_rated">Top rated</string>
+    <string name="title_film_most_popular">Most popular</string>
+    <string name="title_tv_latest">Latest</string>
+    <string name="title_tv_top_rated">Top rated</string>
+    <string name="title_tv_most_popular">Most popular</string>
+    <string name="drawer_open">navigation drawer abierto</string>
+    <string name="drawer_close">navigation drawer cerrado</string>
+
+</resources>

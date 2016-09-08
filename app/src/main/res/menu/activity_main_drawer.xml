@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/film_latest"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/title_film_latest" />
+        <item
+            android:id="@+id/film_top_rated"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/title_film_top_rated" />
+        <item
+            android:id="@+id/film_most_popular"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/title_film_most_popular" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tv_latest"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/title_tv_latest" />
+        <item
+            android:id="@+id/tv_top_rated"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/title_tv_top_rated" />
+        <item
+            android:id="@+id/tv_most_popular"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/title_tv_most_popular" />
+    </group>
+    <item android:title="Acciones adicionales">
+        <menu>
+            <item
+                android:id="@+id/nav_preferencias"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Preferencias" />
+            <item
+                android:id="@+id/nav_compartir"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Compartir" />
+        </menu>
+    </item>
+</menu>
